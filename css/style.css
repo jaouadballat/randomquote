@@ -1,0 +1,33 @@
+body{
+  background-color:#011A22;
+  font-family:Papyrus;
+  font-size: 25px;
+  color:#E0DFD5;
+}
+h1{
+  font-family:Palatino;
+}
+#newQuote{
+  font-size:12px;
+}
+.fa{
+  font-size:20px !important;
+  padding-right:6px;
+}
+a{
+  font-size: 20px!important;
+  text-transform: capitalize !important;
+}
+#author{
+  font-family:Baskerville;
+  font-size: 20px;
+}
+#tweet{
+  padding: 0px 53px;
+}
+#footer{
+  font-family:Baskerville;
+  font-size: 18px;
+  margin-top:40px;
+  transform: translateY(160px);
+}

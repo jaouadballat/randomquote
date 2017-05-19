@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.css"  media="screen,projection"/>
+      <link rel="stylesheet" href="css/style.css">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+      <div class="row">
+      <h1 class="center-align">Random Quote Machine</h1>
+      <div class="col s12 m8 offset-m2" id="display">
+        <div class="card-panel blue-grey darken-4">
+          <i class="fa fa-quote-left"></i>
+          <span class="white-text">I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+          </span>
+          <i class="fa fa-quote-right"></i>
+          <p id="author" class="right-align"></p>
+        </div>
+          <a class="waves-effect waves-light btn-large blue-grey darken-4 btn tooltipped" id="newQuote" data-position="bottom" data-delay="50" data-tooltip="Get a New Quote"><i class="fa fa-quote-left"></i>New Quote</a>
+          <a class="btn tooltipped waves-effect waves-light btn-large blue-grey darken-4" id="tweet" data-position="bottom" data-delay="50" data-tooltip="Make Tweet"><i class="fa fa-twitter"></i>Tweet</a>
+      </div>
+    </div>
+    <p class="center-align" id="footer">&copy; Jaouad Ballat </p>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.js"></script>
+      <script src="js/main.js"></script>
+    </body>
+  </html>
