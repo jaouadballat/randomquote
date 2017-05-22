@@ -28,6 +28,7 @@ function getQuote(){
   });
 }  
 $(document).ready(function(){
+  getQuote();
   $("#newQuote").on('click', function(e){
   getQuote();
 });
