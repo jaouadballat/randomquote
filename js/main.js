@@ -2,7 +2,7 @@ var quoteText;
 var author;
 function getQuote(){
     $.ajax({
-    url: "http://api.forismatic.com/api/1.0/",
+    url: "https://api.forismatic.com/api/1.0/",
     jsonp:'jsonp',
     data:{
       method: 'getQuote',
@@ -22,7 +22,7 @@ function getQuote(){
        }
     },
     error:function(err){
-      aler(err);
+      alert(err);
       console.log(err);
     }
   });
